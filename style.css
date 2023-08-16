@@ -44,11 +44,15 @@
     text-decoration: line-through;
   }
 
-
+  ul {
+    padding: 0;
+  }
+  
   .wrapper {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
     gap: 40px;
     max-width: 900px;
     white-space: normal;
